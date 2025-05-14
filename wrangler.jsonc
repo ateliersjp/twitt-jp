@@ -1,0 +1,11 @@
+{
+  "name": "twitt-jp",
+  "main": "src/index.js",
+  "compatibility_date": "2025-05-13",
+  "observability": {
+    "enabled": true
+  },
+  "triggers": {
+    "crons": ["0 * * * *"]
+  }
+}
