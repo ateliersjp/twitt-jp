@@ -1,0 +1,17 @@
+{
+  "name": "twitt-jp",
+  "main": "src/index.js",
+  "compatibility_date": "2025-05-13",
+  "observability": {
+    "enabled": true
+  },
+  "triggers": {
+    "crons": ["0 * * * *"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "NITTER_UPDATES",
+      "id": "dd624ce2b4f646638bde62beaf21770b"
+    }
+  ]
+}
